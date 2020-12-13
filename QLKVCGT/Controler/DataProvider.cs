@@ -10,7 +10,7 @@ namespace QLKVCGT.Controler
 {
     class DataProvider
     {
-        private string connectString = @"Data Source=DESKTOP-2LBLEFU\SQLEXPRESS;Initial Catalog=QLK;Integrated Security=True";
+        private string connectString = @"Data Source=WINDOWS-DSDLV6O\SQLEXPRESS;Initial Catalog=QLK;Integrated Security=True";
         private static DataProvider instances;
 /*1*/
         public static DataProvider Instances
