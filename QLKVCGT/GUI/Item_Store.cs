@@ -58,6 +58,7 @@ namespace QLKVCGT.GUI
             btnAdd.Enabled = e;
             btnSave.Enabled = !e;
             btnCancel.Enabled = !e;
+            btnAdd.BackColor=Color.Red;
         }
         private void load()
         {
