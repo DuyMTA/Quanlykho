@@ -1,6 +1,6 @@
 ﻿namespace QLKVCGT.GUI
 {
-    partial class ListIssue_Vou
+    partial class ListReceipt_Vou
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.dtpkDayOfIssue_Vou = new System.Windows.Forms.DateTimePicker();
+            this.dtpkDayOfReceipt_Vou = new System.Windows.Forms.DateTimePicker();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
@@ -41,7 +41,7 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.tbTotalPrice = new System.Windows.Forms.TextBox();
-            this.tbNgNhan = new System.Windows.Forms.TextBox();
+            this.tbNgGiao = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -76,7 +76,7 @@
             // 
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(5, 4);
+            this.panel1.Location = new System.Drawing.Point(2, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1668, 711);
@@ -93,25 +93,25 @@
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.dtpkDayOfIssue_Vou);
+            this.panel6.Controls.Add(this.dtpkDayOfReceipt_Vou);
             this.panel6.Controls.Add(this.label16);
             this.panel6.Controls.Add(this.label15);
             this.panel6.Controls.Add(this.panel8);
-            this.panel6.Location = new System.Drawing.Point(6, 6);
+            this.panel6.Location = new System.Drawing.Point(1, 2);
             this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(878, 703);
             this.panel6.TabIndex = 0;
             // 
-            // dtpkDayOfIssue_Vou
+            // dtpkDayOfReceipt_Vou
             // 
-            this.dtpkDayOfIssue_Vou.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpkDayOfIssue_Vou.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpkDayOfIssue_Vou.Location = new System.Drawing.Point(582, 66);
-            this.dtpkDayOfIssue_Vou.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dtpkDayOfIssue_Vou.Name = "dtpkDayOfIssue_Vou";
-            this.dtpkDayOfIssue_Vou.Size = new System.Drawing.Size(147, 27);
-            this.dtpkDayOfIssue_Vou.TabIndex = 57;
+            this.dtpkDayOfReceipt_Vou.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpkDayOfReceipt_Vou.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpkDayOfReceipt_Vou.Location = new System.Drawing.Point(582, 66);
+            this.dtpkDayOfReceipt_Vou.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtpkDayOfReceipt_Vou.Name = "dtpkDayOfReceipt_Vou";
+            this.dtpkDayOfReceipt_Vou.Size = new System.Drawing.Size(147, 27);
+            this.dtpkDayOfReceipt_Vou.TabIndex = 57;
             // 
             // label16
             // 
@@ -130,7 +130,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(247, 28);
             this.label15.TabIndex = 18;
-            this.label15.Text = "Danh sách phiếu xuất";
+            this.label15.Text = "Danh sách phiếu nhập";
             // 
             // panel8
             // 
@@ -166,7 +166,7 @@
             // 
             this.panel2.Controls.Add(this.panel7);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Location = new System.Drawing.Point(3, 2);
+            this.panel2.Location = new System.Drawing.Point(3, 5);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(742, 706);
@@ -176,7 +176,7 @@
             // 
             this.panel7.Controls.Add(this.label2);
             this.panel7.Controls.Add(this.tbTotalPrice);
-            this.panel7.Controls.Add(this.tbNgNhan);
+            this.panel7.Controls.Add(this.tbNgGiao);
             this.panel7.Controls.Add(this.label5);
             this.panel7.Controls.Add(this.label1);
             this.panel7.Controls.Add(this.label3);
@@ -216,14 +216,14 @@
             this.tbTotalPrice.Size = new System.Drawing.Size(216, 27);
             this.tbTotalPrice.TabIndex = 59;
             // 
-            // tbNgNhan
+            // tbNgGiao
             // 
-            this.tbNgNhan.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbNgNhan.Location = new System.Drawing.Point(516, 181);
-            this.tbNgNhan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tbNgNhan.Name = "tbNgNhan";
-            this.tbNgNhan.Size = new System.Drawing.Size(216, 27);
-            this.tbNgNhan.TabIndex = 61;
+            this.tbNgGiao.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbNgGiao.Location = new System.Drawing.Point(516, 181);
+            this.tbNgGiao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tbNgGiao.Name = "tbNgGiao";
+            this.tbNgGiao.Size = new System.Drawing.Size(216, 27);
+            this.tbNgGiao.TabIndex = 61;
             // 
             // label5
             // 
@@ -233,7 +233,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(133, 25);
             this.label5.TabIndex = 62;
-            this.label5.Text = "Người nhận :";
+            this.label5.Text = "Người giao:";
             // 
             // label1
             // 
@@ -242,7 +242,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(195, 28);
             this.label1.TabIndex = 58;
-            this.label1.Text = "Chi tiết phiếu xuất";
+            this.label1.Text = "Chi tiết phiếu nhập";
             // 
             // label3
             // 
@@ -252,7 +252,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(133, 25);
             this.label3.TabIndex = 52;
-            this.label3.Text = "Ngày xuất:";
+            this.label3.Text = "Ngày nhập:";
             // 
             // label14
             // 
@@ -262,7 +262,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(137, 25);
             this.label14.TabIndex = 42;
-            this.label14.Text = "Mã khách hàng:";
+            this.label14.Text = "Mã nhà cung cấp:";
             // 
             // tbDateOfBill
             // 
@@ -290,7 +290,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(137, 25);
             this.label4.TabIndex = 50;
-            this.label4.Text = "Số phiếu xuất:";
+            this.label4.Text = "Số phiếu nhập:";
             // 
             // tbCustomerName
             // 
@@ -318,7 +318,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(133, 25);
             this.label13.TabIndex = 44;
-            this.label13.Text = "Tên khách hàng:";
+            this.label13.Text = "Tên nhà cung cấp:";
             // 
             // label11
             // 
@@ -387,16 +387,16 @@
             this.dgvBillDetailView.Name = "dgvBillDetailView";
             this.dgvBillDetailView.OptionsBehavior.ReadOnly = true;
             // 
-            // ListIssue_Vou
+            // ListReceipt_Vou
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1598, 922);
+            this.ClientSize = new System.Drawing.Size(1370, 727);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "ListIssue_Vou";
-            this.Text = "DS phiếu xuất";
-            this.Load += new System.EventHandler(this.ListIssue_Vou_Load);
+            this.Name = "ListReceipt_Vou";
+            this.Text = "DS phiếu nhập";
+            this.Load += new System.EventHandler(this.ListReceipt_Vou_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
@@ -418,7 +418,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.DateTimePicker dtpkDayOfIssue_Vou;
+        private System.Windows.Forms.DateTimePicker dtpkDayOfReceipt_Vou;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel8;
@@ -428,7 +428,7 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbTotalPrice;
-        private System.Windows.Forms.TextBox tbNgNhan;
+        private System.Windows.Forms.TextBox tbNgGiao;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
